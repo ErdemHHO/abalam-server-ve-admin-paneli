@@ -1,0 +1,113 @@
+/**********************************/
+/*********** Product Card **********/
+/**********************************/
+
+.parts__container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.parts__container .box {
+  margin: 10px;
+	position: relative;
+  width: 280px;
+	padding: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	border-radius: 0.5rem;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom:20px;
+}
+
+.parts__container .box img {
+	width: 100%;
+	object-fit: contain;
+	object-position: center;
+	margin-bottom: 1rem;
+}
+.parts__container .box .button{
+  color: #000;
+  border: 1.5px solid #000;
+  border-radius: 3px;
+  padding: 0.8rem;
+}
+.parts__container .box h3 {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+.parts__container .box span {
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: var(--main-color);
+}
+
+.parts__container .box p {
+	color: var(--main-color);
+	font-size: 0.9rem;
+	font-family: inherit;
+	margin-bottom: 1rem;
+}
+
+.parts__container .box .stars {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.8rem;
+}
+
+.parts__container .box .stars i {
+	color: #ffd700;
+	margin-right: 0.2rem;
+	font-size: 0.8rem;
+}
+
+.parts__container .box .buttons {
+  
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.parts__container .box .buttons a{
+  
+text-decoration:none;
+}
+.whatsappButton:hover{
+  background-color: rgb(0, 110, 20);
+  color: #fff !important;
+}
+.detailsButton:hover{
+  background-color:#F08D03;
+  color: #fff !important;
+}
+
+
+.parts__container .box .details {
+
+	display: inline-block;
+	padding: 0.8rem 1.6rem;
+	color: var(--text-color);
+	border: 0.1rem solid var(--text-color);
+  border: 1.5px solid #000;
+  border-radius: 3px;
+}
+
+.parts__container .box .details:hover {
+	color: var(--main-color);
+	border: 0.1rem solid var(--main-color);
+}
+.box .buy {
+	display: inline-block;
+	padding: 0.8rem 1.6rem;
+	color: var(--text-color);
+	border: 0.1rem solid var(--text-color);
+}
+.box .buy:hover {
+	color: #05f545;
+	border: 0.1rem solid #05f545;
+}
+.part-text{
+    color: #000 !important;
+}
